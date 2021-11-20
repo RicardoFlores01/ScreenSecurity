@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="imagedesc">imgDescLogin</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="inforeg">If you don\'t have an account yet, register here</string>
+    <string name="recovery">Forgot your password? Recover it here</string>
+    <string name="user">User</string>
+</resources>

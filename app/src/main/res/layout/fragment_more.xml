@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoreFragment">
+
+    <TextView
+        android:id="@+id/desc"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/purple_700"
+        android:text="Protect your privacy with"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/app"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/purple_700"
+        android:text="Screen Security"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        app:layout_constraintTop_toBottomOf="@id/desc"/>
+
+    <TextView
+        android:id="@+id/des_min"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/purple_700"
+        android:text="Get the most out of this amazing app"
+        android:textSize="13sp"
+        android:textColor="#ffffff"
+        app:layout_constraintTop_toBottomOf="@id/app" />
+
+    <TextView
+        android:id="@+id/icon_more"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:background="@drawable/ic_baseline_settings_24"
+        app:layout_constraintTop_toBottomOf="@id/des_min"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"/>
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Settings"
+        android:textSize="22sp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#8492A6"
+        android:stateListAnimator="@null"
+        app:layout_constraintTop_toTopOf="@id/icon_more"
+        app:layout_constraintLeft_toRightOf="@id/icon_more"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-13dp"
+        android:textAllCaps="false"
+        android:letterSpacing="0.0"/>
+
+    <View
+        android:id="@+id/linea"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="20dp"
+        android:background="#8492A6"
+        app:layout_constraintLeft_toLeftOf="@id/icon_more"
+        app:layout_constraintTop_toBottomOf="@+id/icon_more"/>
+
+    <!-- FIRST -->
+    <TextView
+        android:id="@+id/icon_more1"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:background="@drawable/ic_baseline_feedback_24"
+        app:layout_constraintTop_toBottomOf="@id/linea"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/title1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Feedback"
+        android:textSize="22sp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#8492A6"
+        android:stateListAnimator="@null"
+        app:layout_constraintTop_toTopOf="@id/icon_more1"
+        app:layout_constraintLeft_toRightOf="@id/icon_more1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-13dp"
+        android:textAllCaps="false"
+        android:letterSpacing="0.0"/>
+
+    <View
+        android:id="@+id/linea1"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginTop="20dp"
+        android:background="#8492A6"
+        app:layout_constraintLeft_toLeftOf="@id/icon_more1"
+        app:layout_constraintTop_toBottomOf="@+id/icon_more1"/>
+
+    <!-- SECOND -->
+    <TextView
+        android:id="@+id/icon_more2"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:background="@drawable/ic_baseline_favorite_border_24"
+        app:layout_constraintTop_toBottomOf="@id/linea1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/title2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Rate Us"
+        android:textSize="22sp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#8492A6"
+        android:stateListAnimator="@null"
+        app:layout_constraintTop_toTopOf="@id/icon_more2"
+        app:layout_constraintLeft_toRightOf="@id/icon_more2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-13dp"
+        android:textAllCaps="false"
+        android:letterSpacing="0.0"/>
+
+    <View
+        android:id="@+id/linea2"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginTop="20dp"
+        android:background="#8492A6"
+        app:layout_constraintLeft_toLeftOf="@id/icon_more2"
+        app:layout_constraintTop_toBottomOf="@+id/icon_more2"/>
+
+    <!-- THIRD -->
+    <TextView
+        android:id="@+id/icon_more3"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:background="@drawable/ic_baseline_info_24"
+        app:layout_constraintTop_toBottomOf="@id/linea2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/title3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="About"
+        android:textSize="22sp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#8492A6"
+        android:stateListAnimator="@null"
+        app:layout_constraintTop_toTopOf="@id/icon_more3"
+        app:layout_constraintLeft_toRightOf="@id/icon_more3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-13dp"
+        android:textAllCaps="false"
+        android:letterSpacing="0.0"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

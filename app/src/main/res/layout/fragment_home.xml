@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attempt History"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="30sp"
+            android:textColor="#47525E"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />/>
+
+
+
+        <TextView
+        android:id="@+id/date_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="October 07 2021 at 11:25 PM"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="20sp"
+        android:textColor="#1F2D3D"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/title"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/ubication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aguascalientes, México"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="15sp"
+        android:textColor="#8492A6"
+        app:layout_constraintLeft_toLeftOf="@id/date_title"
+        app:layout_constraintTop_toBottomOf="@+id/date_title" />
+
+    <View
+        android:id="@+id/linea"
+        android:layout_width="270dp"
+        android:layout_height="0.8dp"
+        android:layout_marginTop="20dp"
+        android:background="#8492A6"
+        app:layout_constraintLeft_toLeftOf="@id/ubication"
+        app:layout_constraintTop_toBottomOf="@+id/ubication"/>
+
+    <TextView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_next"
+        app:layout_constraintLeft_toRightOf="@id/date_title"
+        app:layout_constraintTop_toBottomOf="@+id/date_title"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="October 07 2021 at 11:25 PM"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="0dp"
+            android:textSize="20sp"
+            android:textColor="#1F2D3D"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="@id/linea"
+            app:layout_constraintTop_toBottomOf="@+id/linea" />
+
+        <TextView
+            android:id="@+id/ubication1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aguascalientes, México"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="0dp"
+            android:textSize="15sp"
+            android:textColor="#8492A6"
+            app:layout_constraintLeft_toLeftOf="@id/date_title1"
+            app:layout_constraintTop_toBottomOf="@+id/date_title1" />
+
+        <View
+            android:id="@+id/linea1"
+            android:layout_width="270dp"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="20dp"
+            android:background="#8492A6"
+            app:layout_constraintLeft_toLeftOf="@id/ubication1"
+            app:layout_constraintTop_toBottomOf="@+id/ubication1"/>
+
+        <TextView
+            android:id="@+id/icon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_next"
+            app:layout_constraintLeft_toRightOf="@id/date_title1"
+            app:layout_constraintTop_toBottomOf="@+id/date_title1"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="October 07 2021 at 11:25 PM"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="0dp"
+            android:textSize="20sp"
+            android:textColor="#1F2D3D"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="@id/linea1"
+            app:layout_constraintTop_toBottomOf="@+id/linea1" />
+
+        <TextView
+            android:id="@+id/ubication2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aguascalientes, México"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="0dp"
+            android:textSize="15sp"
+            android:textColor="#8492A6"
+            app:layout_constraintLeft_toLeftOf="@id/date_title2"
+            app:layout_constraintTop_toBottomOf="@+id/date_title2" />
+
+        <View
+            android:id="@+id/linea2"
+            android:layout_width="270dp"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="20dp"
+            android:background="#8492A6"
+            app:layout_constraintLeft_toLeftOf="@id/ubication2"
+            app:layout_constraintTop_toBottomOf="@+id/ubication2"/>
+
+        <TextView
+            android:id="@+id/icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_next"
+            app:layout_constraintLeft_toRightOf="@id/date_title2"
+            app:layout_constraintTop_toBottomOf="@+id/date_title2"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/date_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="October 07 2021 at 11:25 PM"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="0dp"
+            android:textSize="20sp"
+            android:textColor="#1F2D3D"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="@id/linea2"
+            app:layout_constraintTop_toBottomOf="@+id/linea2" />
+
+        <TextView
+            android:id="@+id/ubication3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aguascalientes, México"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="0dp"
+            android:textSize="15sp"
+            android:textColor="#8492A6"
+            app:layout_constraintLeft_toLeftOf="@id/date_title3"
+            app:layout_constraintTop_toBottomOf="@+id/date_title3" />
+
+        <View
+            android:id="@+id/linea3"
+            android:layout_width="270dp"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="20dp"
+            android:background="#8492A6"
+            app:layout_constraintLeft_toLeftOf="@id/ubication3"
+            app:layout_constraintTop_toBottomOf="@+id/ubication3"/>
+
+        <TextView
+            android:id="@+id/icon3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_next"
+            app:layout_constraintLeft_toRightOf="@id/date_title3"
+            app:layout_constraintTop_toBottomOf="@+id/date_title3"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date_title4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="October 07 2021 at 11:25 PM"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="0dp"
+            android:textSize="20sp"
+            android:textColor="#1F2D3D"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="@+id/linea3"
+            app:layout_constraintTop_toBottomOf="@+id/linea3" />
+
+        <TextView
+            android:id="@+id/ubication4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aguascalientes, México"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="0dp"
+            android:textSize="15sp"
+            android:textColor="#8492A6"
+            app:layout_constraintLeft_toLeftOf="@id/date_title4"
+            app:layout_constraintTop_toBottomOf="@+id/date_title4" />
+
+        <View
+            android:id="@+id/linea4"
+            android:layout_width="270dp"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="20dp"
+            android:background="#8492A6"
+            app:layout_constraintLeft_toLeftOf="@id/ubication4"
+            app:layout_constraintTop_toBottomOf="@+id/ubication4"/>
+
+        <TextView
+            android:id="@+id/icon4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_next"
+            app:layout_constraintLeft_toRightOf="@id/date_title4"
+            app:layout_constraintTop_toBottomOf="@+id/date_title4"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/date_title5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="October 07 2021 at 11:25 PM"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="0dp"
+            android:textSize="20sp"
+            android:textColor="#1F2D3D"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="@id/linea4"
+            app:layout_constraintTop_toBottomOf="@+id/linea4" />
+
+        <TextView
+            android:id="@+id/ubication5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aguascalientes, México"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="0dp"
+            android:textSize="15sp"
+            android:textColor="#8492A6"
+            app:layout_constraintLeft_toLeftOf="@id/date_title5"
+            app:layout_constraintTop_toBottomOf="@+id/date_title5" />
+
+        <View
+            android:id="@+id/linea5"
+            android:layout_width="270dp"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="20dp"
+            android:background="#8492A6"
+            app:layout_constraintLeft_toLeftOf="@id/ubication5"
+            app:layout_constraintTop_toBottomOf="@+id/ubication5"/>
+
+        <TextView
+            android:id="@+id/icon5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_next"
+            app:layout_constraintLeft_toRightOf="@id/date_title5"
+            app:layout_constraintTop_toBottomOf="@+id/date_title5"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

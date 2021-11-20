@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ScreenSecurity</string>
+    <string name="imagedesc">imgDescLogin</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="inforeg">Create an account</string>
+    <string name="recovery">Forgot your password? Recover it here</string>
+    <string name="user">User</string>
+    <string name="code">Enter the 6-digit code</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- Nombres de las actividades -->
+    <string name="signup">Sign Up</string>
+    <string name="verification">Two-step Verification</string>
+    <!--  ///////////////////////// -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
